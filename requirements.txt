@@ -1,0 +1,7 @@
+playwright
+pandas
+openpyxl
+python-dotenv
+asyncio
+beautifulsoup4
+playwright-stealth

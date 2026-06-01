@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "jobs": [
+    {
+      "id": "cron-1780236430112-6scd5jgg",
+      "name": "Daily Talent Intelligence Batch",
+      "enabled": true,
+      "deleteAfterRun": false,
+      "createdAtMs": 1780236430112,
+      "updatedAtMs": 1780284658927,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * *",
+        "tz": "Asia/Calcutta"
+      },
+      "payload": {
+        "kind": "command",
+        "command": "cd /Users/nitingupta/Desktop/Python_project && /Users/nitingupta/Library/Accio/external-tools/v67885616ab00/python/bin/python3 pipeline.py"
+      },
+      "state": {
+        "nextRunAtMs": 1780371000000,
+        "lastRunAtMs": 1780284658912,
+        "lastStatus": "ok",
+        "lastDurationMs": 58853
+      },
+      "target": {
+        "type": "conversation",
+        "conversationId": "CID-04618432U1780234-FC56D4-8047-A8315D"
+      },
+      "workspacePath": "/Users/nitingupta/Documents/Python_project",
+      "createdBy": {
+        "source": "agent",
+        "actorId": "MID-30618432U1780234-FC56D4-5253-476691"
+      }
+    }
+  ]
+}
